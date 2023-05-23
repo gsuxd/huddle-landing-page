@@ -209,3 +209,57 @@ footer .title > h2{
 footer .info-container > * {
   color: white;
 }
+
+@media screen and (max-width: 650px) {
+
+  .section-title p {
+    width: 80%;
+    font-size: 0.9em;
+  }
+
+  .section-title h1 { 
+    text-align: center;
+    width: 80%;
+    font-size: 1.7em;
+  }
+
+  .section-numbers {
+    flex-direction: column;
+    gap: 3rem
+  }
+
+  .number-container h2 {
+    font-size: 4em;
+    width: 100%;
+    text-align: center;
+  }
+
+  section.info-container > div {
+    flex-direction: column-reverse;
+    padding: 3rem 1rem;
+    align-items: center;
+  }
+
+  section.flowing-conversations > div {
+    flex-direction: column;
+  }
+
+  section.info-container > div > img {
+    width: 70%;
+  }
+
+  section.info-container .content {
+    text-align: center;
+  }
+
+  section.info-container .content > p {
+    width: 70%;
+    margin: auto;
+  }
+
+  footer { 
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
